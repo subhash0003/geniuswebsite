@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GENIUS Website Clone</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="media-querry.css">
+</head>
+
+<body>
+    <!------------------ 
+        header section
+    -------------------->
+    <header class="flex">
+        <form action="" class="flex">
+            <input type="text" class="headerSearch" placeholder="Search lyrics & more" />
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </form>
+        <img src="./assets/asset 2.svg" alt="" />
+        <div class="headerButtons">
+            <a href="">Sign Up</a>
+            <a href="">Sign In</a>
+        </div>
+        <div class="mobileButtons">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </header>
+    <!---------------------- 
+        sub-header section
+    ----------------------->
+    <div class="subHeader flex">
+        <span>THE 50TH</span>
+        <span>FEATURED</span>
+        <span>CHART</span>
+        <span>VIDEOS</span>
+        <span>PROMOTING YOUR MUSIC</span>
+        <div class="subHeaderSocial">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-youtube"></i>
+        </div>
+    </div>
+    <!------------------ 
+        main section
+    -------------------->
+    <main>
+        <!------------------- 
+            bigNews section
+         -------------------->
+        <section class="flex container bigNews">
+            <div class="bigNewsContent">
+                <div class="flex headingHr">
+                    <span>NEWS</span>
+                </div>
+                <h2>
+                    K-Pop Girl Group ITZY Aim To Forget Their Problems On New Song
+                    “CAKE”
+                </h2>
+                <p>It appears on their just-released mini-album ‘KILL MY DOUBT.’</p>
+                <div>
+                    <span> by Ken Partridge </span>
+                    <span> /Aug 1 2023 </span>
+                </div>
+            </div>
+            <div class="bigNewsImage"></div>
+        </section>
+        <!--------------------- 
+            smallNews section
+         ---------------------->
+        <section class="flex container smallNews">
+            <div class="smallNewsContent">
+                <div class="smallNewsUpperContent">
+                    <div class="flex smallNewsHeadline">
+                        <span>FEATURED</span>
+                    </div>
+                    <h3>Genius Community Playlist July 2023</h3>
+                </div>
+                <div class="smallNewsLowerContent">
+                    <div>
+                        <span>by worstofalltime</span>
+                        <span>/Jul 31 2023</span>
+                    </div>
+                    <div class="smallNewsImage" id="SNI1"></div>
+                </div>
+            </div>
+            <div class="smallNewsContent">
+                <div class="smallNewsUpperContent">
+                    <div class="flex smallNewsHeadline">
+                        <span>FEATURED</span>
+                    </div>
+                    <h3>What’s Up Next: Here’s Every Album Dropping In August</h3>
+                </div>
+                <div class="smallNewsLowerContent">
+                    <div>
+                        <span>by worstofalltime</span>
+                        <span>/Jul 31 2023</span>
+                    </div>
+                    <div class="smallNewsImage" id="SNI1"></div>
+                </div>
+            </div>
+            <div class="smallNewsContent">
+                <div class="smallNewsUpperContent">
+                    <div class="flex smallNewsHeadline">
+                        <span>NEWS</span>
+                    </div>
+                    <h3>
+                        Introducing V1V1D, The Newest Threat To Rap’s Ongoing Algorithm
+                    </h3>
+                </div>
+                <div class="smallNewsLowerContent">
+                    <div>
+                        <span>by worstofalltime</span>
+                        <span>/Jul 31 2023</span>
+                    </div>
+                    <div class="smallNewsImage" id="SNI3"></div>
+                </div>
+            </div>
+            <div class="smallNewsContent">
+                <div class="smallNewsUpperContent">
+                    <div class=" flex smallNewsHeadline">
+                        <span>NEWS</span>
+                    </div>
+                    <h3>Looking Back At The Top Hip-Hop Artist Of 2016 On Genius</h3>
+                </div>
+                <div class="smallNewsLowerContent">
+                    <div>
+                        <span>by worstofalltime</span>
+                        <span>/Jul 31 2023</span>
+                    </div>
+                    <div class="smallNewsImage" id="SNI4"></div>
+                </div>
+            </div>
+        </section>
+        <!------------------ 
+            chart section
+         ------------------->
+        <section class="chartSection container">
+            <div class="chartHead flex">
+                <h1>CHARTS</h1>
+                <div class="chartDropdown flex">
+                    <span>SONGS / ALL GENRES / TODAY</span>
+                    <i class="fa-solid fa-angle-down"></i>
+                </div>
+            </div>
+            <div class="chartLeaderBoard">
+                <div class="songDetails flex">
+                    <div class="albumCover flex">
+                        <span>1</span>
+                        <img src="https://t2.genius.com/unsafe/75x75/https%3A%2F%2Fimages.genius.com%2F93c577bcd2cce45a2e7063978bcb3b1a.300x300x1.png"
+                            alt="">
+                    </div>
+                    <div class="albumName flex">
+                        <span>MY EYES</span>
+                        <span id="lyrics">LYRICS</span>
+                    </div>
+                    <div class="singerName">
+                        Travis Scott
+                    </div>
+                    <div class="ratingsAndViews flex">
+                        <div class="flex fire">
+                            <i class="fa-solid fa-fire"></i>
+                            <span>61</span>
+                        </div>
+                        <div class="flex ratings">
+                            <i class="fa-regular fa-eye"></i>
+                            <span>446.7K</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="songDetails flex">
+                    <div class="albumCover flex">
+                        <span>2</span>
+                        <img src="https://t2.genius.com/unsafe/75x75/https%3A%2F%2Fimages.genius.com%2F93c577bcd2cce45a2e7063978bcb3b1a.300x300x1.png"
+                            alt="">
+                    </div>
+                    <div class="albumName flex">
+                        <span>MELT DOWN</span>
+                        <span id="lyrics">LYRICS</span>
+                    </div>
+                    <div class="singerName">
+                        Travis Scott
+                    </div>
+                    <div class="ratingsAndViews flex">
+                        <div class="flex fire">
+                            <i class="fa-solid fa-fire"></i>
+                            <span>56</span>
+                        </div>
+                        <div class="flex ratings">
+                            <i class="fa-regular fa-eye"></i>
+                            <span>605.4K</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="songDetails flex">
+
+                    <div class="albumCover flex">
+                        <span>3</span>
+                        <img src="https://t2.genius.com/unsafe/75x75/https%3A%2F%2Fimages.genius.com%2F93c577bcd2cce45a2e7063978bcb3b1a.300x300x1.png"
+                            alt="">
+                    </div>
+
+                    <div class="albumName flex">
+                        <span>FE!M</span>
+                        <span id="lyrics">LYRICS</span>
+                    </div>
+
+                    <div class="singerName">
+                        Travis Scott
+                    </div>
+
+                    <div class="views flex">
+                        <div class="flex ratings">
+                            <i class="fa-regular fa-eye"></i>
+                            <span>705.1K</span>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="songDetails flex">
+                    <div class="albumCover flex">
+                        <span>4</span>
+                        <img src="https://t2.genius.com/unsafe/75x75/https%3A%2F%2Fimages.genius.com%2F93c577bcd2cce45a2e7063978bcb3b1a.300x300x1.png"
+                            alt="">
+                    </div>
+                    <div class="albumName flex">
+                        <span>MY TELEKENESIS</span>
+                        <span id="lyrics">LYRICS</span>
+                    </div>
+                    <div class="singerName">
+                        Travis Scott
+                    </div>
+                    <div class="views flex">
+                        <div class="flex ratings">
+                            <i class="fa-regular fa-eye"></i>
+                            <span>338.9K</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="songDetails flex">
+                    <div class="albumCover flex">
+                        <span>5</span>
+                        <img src="https://t2.genius.com/unsafe/75x75/https%3A%2F%2Fimages.genius.com%2F93c577bcd2cce45a2e7063978bcb3b1a.300x300x1.png"
+                            alt="">
+                    </div>
+                    <div class="albumName flex">
+                        <span>I KNOW ?</span>
+                        <span id="lyrics">LYRICS</span>
+                    </div>
+                    <div class="singerName">
+                        Travis Scott
+                    </div>
+                    <div class="views flex">
+                        <div class="flex ratings">
+                            <i class="fa-regular fa-eye"></i>
+                            <span>293.8K</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="songDetails flex">
+                    <div class="albumCover flex">
+                        <span>6</span>
+                        <img src="https://t2.genius.com/unsafe/75x75/https%3A%2F%2Fimages.genius.com%2F93c577bcd2cce45a2e7063978bcb3b1a.300x300x1.png"
+                            alt="">
+                    </div>
+                    <div class="albumName flex">
+                        <span>THANK GOD</span>
+                        <span id="lyrics">LYRICS</span>
+                    </div>
+                    <div class="singerName">
+                        Travis Scott
+                    </div>
+                    <div class="views flex">
+                        <div class="flex ratings">
+                            <i class="fa-regular fa-eye"></i>
+                            <span>314.7K</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="songDetails flex">
+                    <div class="albumCover flex">
+                        <span>7</span>
+                        <img src="https://t2.genius.com/unsafe/75x75/https%3A%2F%2Fimages.genius.com%2F93c577bcd2cce45a2e7063978bcb3b1a.300x300x1.png"
+                            alt="">
+                    </div>
+                    <div class="albumName flex">
+                        <span>HYENA</span>
+                        <span id="lyrics">LYRICS</span>
+                    </div>
+                    <div class="singerName">
+                        Travis Scott
+                    </div>
+                    <div class="views flex">
+                        <div class="flex ratings">
+                            <i class="fa-regular fa-eye"></i>
+                            <span>290.3K</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="songDetails flex">
+                    <div class="albumCover flex">
+                        <span>8</span>
+                        <img src="https://t2.genius.com/unsafe/75x75/https%3A%2F%2Fimages.genius.com%2F93c577bcd2cce45a2e7063978bcb3b1a.300x300x1.png"
+                            alt="">
+                    </div>
+                    <div class="albumName flex">
+                        <span>MODERN JAM</span>
+                        <span id="lyrics">LYRICS</span>
+                    </div>
+                    <div class="singerName">
+                        Travis Scott
+                    </div>
+                    <div class="views flex">
+                        <div class="flex ratings">
+                            <i class="fa-regular fa-eye"></i>
+                            <span>146.7K</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="songDetails flex">
+                    <div class="albumCover flex">
+                        <span>9</span>
+                        <img src="https://t2.genius.com/unsafe/75x75/https%3A%2F%2Fimages.genius.com%2F93c577bcd2cce45a2e7063978bcb3b1a.300x300x1.png"
+                            alt="">
+                    </div>
+                    <div class="albumName flex">
+                        <span>TOPIA TWINS</span>
+                        <span id="lyrics">LYRICS</span>
+                    </div>
+                    <div class="singerName">
+                        Travis Scott
+                    </div>
+                    <div class="views flex">
+                        <div class="flex ratings">
+                            <i class="fa-regular fa-eye"></i>
+                            <span>439.2K</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="songDetails flex">
+                    <div class="albumCover flex">
+                        <span>10</span>
+                        <img src="https://t2.genius.com/unsafe/75x75/https%3A%2F%2Fimages.genius.com%2F93c577bcd2cce45a2e7063978bcb3b1a.300x300x1.png"
+                            alt="">
+                    </div>
+                    <div class="albumName flex">
+                        <span>SKITOZ</span>
+                        <span id="lyrics">LYRICS</span>
+                    </div>
+                    <div class="singerName">
+                        Travis Scott
+                    </div>
+                    <div class="views flex">
+                        <div class="flex ratings">
+                            <i class="fa-regular fa-eye"></i>
+                            <span>536.7K</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="chartFoot flex">
+                <button class="btn btnPrimary">LOAD MORE</button>
+            </div>
+        </section>
+        <!------------------ 
+            video section
+         ------------------->
+        <section class="videoBox">
+            <div class="mainVideoBox">
+                <div class="videoHeading flex">
+                    <h1>VIDEOS</h1>
+                    <p>GENIUS ORIGINAL SERIES</p>
+                </div>
+                <div class="videoContent flex">
+                    <div class="videoThumbnail">
+                        <div class="videoPlayBtn flex">
+                            <i class="fa-solid fa-play"></i>
+                        </div>
+                        <img src="https://t2.genius.com/unsafe/1094x616/https%3A%2F%2Fimages.genius.com%2F105b18027f8c142d790eab52263ee5a7.1000x563x1.jpg"
+                            alt="">
+                    </div>
+                    <div class="videoDetails">
+                        <div class="videoDetailsTopMargine">
+
+                        </div>
+                        <h1>VERIFIED</h1>
+                        <h4>Foggieraw Breaks Down The Meaning of “Psalm 62”</h4>
+                        <p>Learn about the song’s lyrics on the latest episode of ‘Verified.’</p>
+                        <div class="videoReleaseDetails">
+                            <span>by ButterflyHoney /</span>
+                            <span id="dateOfRelease">Aug 2 2023</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="videoBoxBtn">
+                    <button class="btn btnSecondary">LOAD MORE</button>
+                </div>
+            </div>
+        </section>
+        <!----------------------- 
+            bottom-news section
+         ------------------------>
+        <section class="bottomNews container">
+            <div class="bottomnewsHeading flex">
+                <h1>LATEST</h1>
+                <h3>MOST RECENT NEWS</h3>
+            </div>
+            <div class="bottomNewsAllNews grid">
+                <div class="allNewsItem">
+                    <div class="allNewsHeading headingHr flex">
+                        <span>NEWS</span>
+                    </div>
+                    <div id="BNI1" class="allNewsImage">
+                    </div>
+                    <div class="allNewsNewsDetails">
+                        <h4>Read All The Lyrics To Tyla Yaweh’s New Album ‘Heart Full Of Rage 2’</h4>
+                        <span>by Ken Partridge /</span>
+                        <span class="allNewsNewsDetailsDate">Aug 4 2023</span>
+                    </div>
+                </div>
+                <div class="allNewsItem">
+                    <div class="allNewsHeading headingHr flex">
+                        <span>NEWS</span>
+                    </div>
+                    <div id="BNI2" class="allNewsImage">
+                    </div>
+                    <div class="allNewsNewsDetails">
+                        <h4>Doja Cat Samples A Dionne Warwick Classic On New Song “Paint The Town Red”</h4>
+                        <span>by Ken Partridge /</span>
+                        <span class="allNewsNewsDetailsDate">Aug 4 2023</span>
+                    </div>
+                </div>
+                <div class="allNewsItem">
+                    <div class="allNewsHeading headingHr flex">
+                        <span>NEWS</span>
+                    </div>
+                    <div id="BNI3" class="allNewsImage">
+                    </div>
+                    <div class="allNewsNewsDetails">
+                        <h4>Ez Mil Teams With Label Boss Eminem For First Time On New Song “Realest”</h4>
+                        <span>by Ken Partridge /</span>
+                        <span class="allNewsNewsDetailsDate">Aug 4 2023</span>
+                    </div>
+                </div>
+                <div class="allNewsItem">
+                    <div class="allNewsHeading headingHr flex">
+                        <span>NEWS</span>
+                    </div>
+                    <div id="BNI4" class="allNewsImage">
+                    </div>
+                    <div class="allNewsNewsDetails">
+                        <h4>Snoh Aalegra Finds Peace In Her Relationship On New Song “Sweet Tea”</h4>
+                        <span>by Ken Partridge /</span>
+                        <span class="allNewsNewsDetailsDate">Aug 4 2023</span>
+                    </div>
+                </div>
+                <div class="allNewsItem">
+                    <div class="allNewsHeading headingHr flex">
+                        <span>NEWS</span>
+                    </div>
+                    <div id="BNI5" class="allNewsImage">
+                    </div>
+                    <div class="allNewsNewsDetails">
+                        <h4>What’s Up Next: Here’s Every Album Dropping In August</h4>
+                        <span>by Ken Partridge /</span>
+                        <span class="allNewsNewsDetailsDate">Aug 4 2023</span>
+                    </div>
+                </div>
+                <div class="allNewsItem">
+                    <div class="allNewsHeading headingHr flex">
+                        <span>NEWS</span>
+                    </div>
+                    <div id="BNI6" class="allNewsImage">
+                    </div>
+                    <div class="allNewsNewsDetails">
+                        <h4>Genius Community Playlist July 2023</h4>
+                        <span>by Ken Partridge /</span>
+                        <span class="allNewsNewsDetailsDate">Aug 4 2023</span>
+                    </div>
+                </div>
+                <div class="allNewsItem">
+                    <div class="allNewsHeading headingHr flex">
+                        <span>NEWS</span>
+                    </div>
+                    <div id="BNI7" class="allNewsImage">
+                    </div>
+                    <div class="allNewsNewsDetails">
+                        <h4>Introducing V1V1D, The Newest Threat To Rap’s Ongoing Algorithm</h4>
+                        <span>by Ken Partridge /</span>
+                        <span class="allNewsNewsDetailsDate">Aug 4 2023</span>
+                    </div>
+                </div>
+                <div class="allNewsItem">
+                    <div class="allNewsHeading headingHr flex">
+                        <span>NEWS</span>
+                    </div>
+                    <div id="BNI8" class="allNewsImage">
+                    </div>
+                    <div class="allNewsNewsDetails">
+                        <h4>Looking Back At The Top Hip-Hop Artist Of 2016 On Genius</h4>
+                        <span>by Ken Partridge /</span>
+                        <span class="allNewsNewsDetailsDate">Aug 4 2023</span>
+                    </div>
+                </div>
+                <div class="allNewsItem">
+                    <div class="allNewsHeading headingHr flex">
+                        <span>NEWS</span>
+                    </div>
+                    <div id="BNI9" class="allNewsImage">
+                    </div>
+                    <div class="allNewsNewsDetails">
+                        <h4>Listen To Baby Tate’s Spotify Playlist Of Perseverance Anthems</h4>
+                        <span>by Ken Partridge /</span>
+                        <span class="allNewsNewsDetailsDate">Aug 4 2023</span>
+                    </div>
+                </div>
+                <div class="allNewsItem">
+                    <div class="allNewsHeading headingHr flex">
+                        <span>NEWS</span>
+                    </div>
+                    <div id="BNI10" class="allNewsImage">
+                    </div>
+                    <div class="allNewsNewsDetails">
+                        <h4>Read All The Lyrics To Tyla Yaweh’s New Album ‘Heart Full Of Rage 2’</h4>
+                        <span>by Ken Partridge /</span>
+                        <span class="allNewsNewsDetailsDate">Aug 4 2023</span>
+                    </div>
+                </div>
+                <div class="allNewsItem">
+                    <div class="allNewsHeading headingHr flex">
+                        <span>NEWS</span>
+                    </div>
+                    <div id="BNI11" class="allNewsImage">
+                    </div>
+                    <div class="allNewsNewsDetails">
+                        <h4>Read All The Lyrics To Tyla Yaweh’s New Album ‘Heart Full Of Rage 2’</h4>
+                        <span>by Ken Partridge /</span>
+                        <span class="allNewsNewsDetailsDate">Aug 4 2023</span>
+                    </div>
+                </div>
+                <div class="allNewsItem">
+                    <div class="allNewsHeading headingHr flex">
+                        <span>NEWS</span>
+                    </div>
+                    <div id="BNI12" class="allNewsImage">
+                    </div>
+                    <div class="allNewsNewsDetails">
+                        <h4>Read All The Lyrics To Tyla Yaweh’s New Album ‘Heart Full Of Rage 2’</h4>
+                        <span>by Ken Partridge /</span>
+                        <span class="allNewsNewsDetailsDate">Aug 4 2023</span>
+                    </div>
+                </div>
+            </div>
+            <div class="bottomNewsBtn">
+                <button class="btn btnPrimary">LOAD MORE</button>
+            </div>
+        </section>
+        <!--------------------- 
+            community section
+        ----------------------->
+        <section class="community container">
+            <div class="communityHeader flex">
+                <h1>COMMUNITY</h1>
+                <div class="communityDescription">
+                    <p>GENIUS’S COMMUNITY OF CONTRIBUTORS POWERS THE WORLD’S BIGGEST COLLECTION OF SONG LYRICS AND
+                        MUSICAL KNOWLEDGE.</p>
+                </div>
+                <div class="communityBtns flex">
+                    <div class="btn btnPrimary communityButtons flex">JOIN OUR COMMUNITY</div>
+                    <div class="btn btnPrimary communityButtons flex">LEARN HOW GENIUS WORKS</div>
+                </div>
+            </div>
+            <div class="communityChart">
+                <div class="communityChartHead flex">
+                    <div class="chartHeadRanking">
+                        RANK
+                    </div>
+                    <div class="chartHeadScollars">TOP SCOLARS TODAY</div>
+                    <div class="chartHeadIq">IQ EARNED TODAY</div>
+                </div>
+                <div class="communityChartLeaderboard flex">
+                    <div class="ChartLeaderboardSno">1</div>
+                    <div class="scollarName flex">
+                        <div id="LBI1"></div>
+                        <div class="ellipses">Chloe Conlon</div>
+                    </div>
+                    <div class="scollarIq">
+                        6,146
+                    </div>
+                </div>
+                <div class="communityChartLeaderboard flex">
+                    <div class="ChartLeaderboardSno">2</div>
+                    <div class="scollarName flex">
+                        <div id="LBI2"></div>
+                        <div class="ellipses">Rabe8i</div>
+                    </div>
+                    <div class="scollarIq">
+                        4,344
+                    </div>
+                </div>
+                <div class="communityChartLeaderboard flex">
+                    <div class="ChartLeaderboardSno">3</div>
+                    <div class="scollarName flex">
+                        <div id="LBI3"></div>
+                        <div class="ellipses">Frialdad</div>
+                    </div>
+                    <div class="scollarIq">
+                        3,922
+                    </div>
+                </div>
+                <div class="communityChartLeaderboard flex">
+                    <div class="ChartLeaderboardSno">4</div>
+                    <div class="scollarName flex">
+                        <div id="LBI4"></div>
+                        <div class="ellipses">berke</div>
+                    </div>
+                    <div class="scollarIq">
+                        6,146
+                    </div>
+                </div>
+                <div class="communityChartLeaderboard flex">
+                    <div class="ChartLeaderboardSno">5</div>
+                    <div class="scollarName flex">
+                        <div id="LBI5"></div>
+                        <div class="ellipses">cebreeos</div>
+                    </div>
+                    <div class="scollarIq">
+                        3,373
+                    </div>
+                </div>
+                <div class="communityChartLeaderboard flex">
+                    <div class="ChartLeaderboardSno">6</div>
+                    <div class="scollarName flex">
+                        <div id="LBI6"></div>
+                        <div class="ellipses">WriteNProppa</div>
+                    </div>
+                    <div class="scollarIq">
+                        3,043
+                    </div>
+                </div>
+                <div class="communityChartLeaderboard flex">
+                    <div class="ChartLeaderboardSno">7</div>
+                    <div class="scollarName flex">
+                        <div id="LBI7"></div>
+                        <div class="ellipses">tokkis</div>
+                    </div>
+                    <div class="scollarIq">
+                        2,638
+                    </div>
+                </div>
+                <div class="communityChartLeaderboard flex">
+                    <div class="ChartLeaderboardSno">8</div>
+                    <div class="scollarName flex">
+                        <div id="LBI9"></div>
+                        <div class="ellipses">pholpot</div>
+                    </div>
+                    <div class="scollarIq">
+                        2,109
+                    </div>
+                </div>
+                <div class="communityChartLeaderboard flex">
+                    <div class="ChartLeaderboardSno">9</div>
+                    <div class="scollarName flex">
+                        <div id="LBI8"></div>
+                        <div class="ellipses">minusminusminus</div>
+                    </div>
+                    <div class="scollarIq">
+                        1,858
+                    </div>
+                </div>
+                <div class="communityChartLeaderboard flex">
+                    <div class="ChartLeaderboardSno">10</div>
+                    <div class="scollarName flex">
+                        <div id="LBI10"></div>
+                        <div class="ellipses">AirGuitarVirtuosoRU</div>
+                    </div>
+                    <div class="scollarIq">
+                        1,852
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--------------------- 
+            Sub-footer section
+        ----------------------->
+        <section class="videoBox subFooter">
+            <div class="flex subFooterSection">
+                <div class="subFooterSectionDiv1">
+                    <h1>
+                        Genius is the world’s biggest collection of song lyrics and musical knowledge
+                    </h1>
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                </div>
+                <div class="subFooterSectionDiv2 flex">
+                    <div class="subFooterSectionDivSub1">
+                        <li>About Genius</li>
+                        <li>Contributor Guidlines</li>
+                        <li>Press</li>
+                        <li>Shop</li>
+                        <li>Advertise</li>
+                        <li>Private Policy</li>
+                    </div>
+                    <div class="subFooterSectionDivSub2">
+                        <li>Licensing</li>
+                        <li>Jobs</li>
+                        <li>Developers</li>
+                        <li>Copyright Policy</li>
+                        <li>Contavt Us</li>
+                        <li>Sing In</li>
+                        <li>Do Not Sell My Personal Information</li>
+                    </div>
+                </div>
+            </div>
+            <div class="flex subFooterBottom">
+                <div class="subFooterBottom1"></div>
+                <div class="subFooterBottom2 flex">
+                    <div class="Bottom2Div">&copy; 2023 ML Genius Holdings, LLC</div>
+                    <div class="Bottom2Div">Terms of Use</div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="videoBox footer flex">
+        <div>VERIFIED ARTISTS&nbsp&nbsp;&nbsp;&bull;&nbsp;&nbsp;&nbsp;ALL ARTISTS:&nbsp;&nbsp;&nbsp;&nbsp; A B C D E F G
+            H I J K L M N O P Q R S T U V W X Y Z #</div>
+        <div>
+            HOT SONGS:&nbsp;&nbsp;&nbsp;&nbsp;REALEST&nbsp;&nbsp;&nbsp;&bull;&nbsp;&nbsp;&nbsp;PAINT THE TOWN
+            RED&nbsp;&nbsp;&nbsp;&bull;&nbsp;&nbsp;&nbsp;SHALL WE&nbsp;&nbsp;&nbsp;&bull;&nbsp;&nbsp;&nbsp;MY
+            EYES&nbsp;&nbsp;&nbsp;&bull;&nbsp;&nbsp;&nbsp;YOASOBI - アイドル (IDOL)
+            (ROMANIZED)&nbsp;&nbsp;&nbsp;&bull;&nbsp;&nbsp;&nbsp;VIEW ALL
+        </div>
+    </footer>
+</body>
+
+</html>

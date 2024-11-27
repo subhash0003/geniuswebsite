@@ -1,0 +1,251 @@
+@media (max-width: 1097px) {
+
+    /*=================
+        Video Section
+    ===================*/
+    .videoBox {
+        padding-inline: 1.3rem;
+    }
+
+    .videoContent {
+        flex-direction: column;
+        gap: 0px;
+        width: 100%;
+    }
+
+    .videoThumbnail {
+        width: 100%;
+    }
+
+    .videoDetails {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+}
+
+@media (max-width: 980px) {
+
+    /*======================
+        Sub-Header Section
+    ========================*/
+    .subHeader>* {
+        padding: 0rem 1rem;
+    }
+}
+
+@media (max-width: 788px) {
+
+    /*======================
+        Sub-Header Section
+    ========================*/
+    .subHeader>* {
+        padding: 0rem 0.5rem;
+    }
+
+    .subHeaderSocial i {
+        margin-right: 0.5rem;
+    }
+
+    /*=====================
+        Big-News Section
+    =======================*/
+    .bigNews {
+        flex-direction: column;
+        height: 35rem;
+    }
+
+    .bigNewsImage,
+    .bigNewsContent {
+        width: 100%;
+    }
+
+    /*======================
+       Small-News Section
+    ========================*/
+    .smallNews {
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .smallNewsContent {
+        width: 50%;
+    }
+
+    .smallNewsContent:nth-child(2n) {
+        border-right: none;
+    }
+
+    .smallNewsUpperContent {
+        height: 10rem;
+    }
+
+    /*=======================
+        Bottom-News Section
+    =========================*/
+    .bottomNewsAllNews {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 660px) {
+
+    /*======================
+        Header Section
+    ========================*/
+    .mobileButtons {
+        display: block;
+    }
+
+    .headerButtons {
+        display: none;
+    }
+
+    .headerSearch {
+        display: none;
+    }
+
+    header form {
+        background-color: transparent;
+    }
+
+    /*======================
+        Sub-Header Section
+    ========================*/
+    .subHeader {
+        display: none;
+    }
+
+    /*=================
+        Chart Section
+    ===================*/
+    .chartHead {
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        height: 11rem;
+    }
+
+    .singerName,
+    .ratingsAndViews,
+    .fire,
+    .views,
+    #lyrics {
+        display: none;
+    }
+
+    .albumName {
+        margin-left: 2rem;
+    }
+
+    .albumCover {
+        margin-left: 1rem;
+    }
+
+    .albumCover span {
+        margin: 1rem;
+    }
+
+    /*======================
+       Small-News Section
+    ========================*/
+    .smallNewsContent {
+        width: 100%;
+    }
+
+    .smallNewsContent {
+        border-right: none;
+    }
+
+    .smallNewsHeadline::after {
+        content: '';
+        flex-grow: 1;
+        background-color: black;
+        height: 2px;
+    }
+
+    .smallNewsHeadline {
+        align-items: center;
+    }
+
+    /*=======================
+        Bottom-News Section
+    =========================*/
+    .bottomNewsAllNews {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    /*=======================
+        Community Section
+    =========================*/
+    .scollarIq,
+    .chartHeadIq {
+        display: none;
+    }
+
+    .scollarName,
+    .chartHeadScollars {
+        width: 90%;
+    }
+
+    .communityBtns {
+        flex-direction: column;
+    }
+
+    .communityHeader h1,
+    .chartHead h1,
+    .videoHeading h1,
+    .bottomnewsHeading h1 {
+        font-size: 2.5rem;
+    }
+
+    .communityDescription {
+        width: 16rem;
+    }
+
+    .communityDescription p {
+        font-size: 0.8rem;
+    }
+
+    .ellipses {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+}
+
+@media (max-width: 400px) {
+    .communityChartLeaderboard {
+        gap: 2rem;
+    }
+
+    .subFooter,
+    .footer {
+        font-size: 0.8rem;
+    }
+
+    .subFooterSection {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .subFooterSectionDiv1,
+    .subFooterSectionDiv2,
+    .subFooterBottom {
+        width: 100%;
+        gap: 5rem;
+    }
+
+    .subFooterBottom2 {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .subFooterBottom1 {
+        display: none;
+    }
+
+    .Bottom2Div {
+        width: 40%;
+    }
+}
